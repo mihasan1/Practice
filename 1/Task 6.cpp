@@ -69,7 +69,7 @@ min=M[0].cost;
              cout << "Producer: "<< M[i].producer<<endl<<endl;;}
                 else continue;}
                         break;}
-  case 4:{cout << "Movies, cost of which lower then maximal\n";
+  case 4:{cout << "Movies, cost of which lower then maximum\n";
         for(int i=0; i<n; i++){
  if(M[i].cost<max){cout << "Name: " << M[i].name<<endl;
          cout << "Cost: "<< M[i].cost<<endl;
